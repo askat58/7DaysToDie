@@ -12,57 +12,62 @@
 <body>
   <div class="container">
     <header>
-        <div id="logo1"><img id="header" src="img/header.png" alt="7 days to die."></div>
+        <div id="logo1"><img id="header" src="img/header.png" alt="7 days to die.">
+        </div>
     </header>
-      <main>
-      <a href="#up"><img id="logo2" src="img/logo.jpeg" alt="7 days to die."></a>
-        <nav >
+    <main>
+        <nav>
           <ul id="up">
             <li>
-              <a href="#home">
+              <a class="menu" href="#home">
                 Homepage
               </a>
             </li>
             <li>
-              <a href="#about">
+              <a class="menu" href="#about">
                 About 
               </a>
             </li>
             <li>
-              <a href="#character">
+              <a class="menu" href="#character">
                 Main character
               </a>
             </li>
             <li>
-              <a href="#alphas">
+              <a class="menu" href="#alphas">
                 Alphas 
               </a>
             </li>
             <li>
-              <a href="#zombies">
+              <a class="menu" href="#zombies">
                 Zombies 
               </a>
             </li>
             <li>
-              <a href="#slider">
+              <a class="menu" href="#slider">
                 Pictures
               </a>
             </li>
             <li>
-              <a href="#contact">
+              <a class="menu" href="#contact">
                 Contact us 
               </a>
             </li>
           </ul>
         </nav>
           <article>
-            <div class="nav" id="home"><h3>Homepage</h3>
+            <div class="nav" id="home">
+              <h3>Homepage</h3>
               <div class="flexbox-container">
                   <p class="part1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi nemo odio alias beatae repellat reprehenderit non quam iste maxime. Odit repellat vel, officiis ab reiciendis animi nemo ipsum dignissimos.lorem. Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quasi, laborum quaerat iure debitis velit, minima fugiat accusamus quo, eius architecto rem error ipsa voluptate explicabo ut, eveniet porro enim! consectetur adipisicing elit. Quos sequi nemo odio alias beatae repellat reprehenderit non quam iste maxime. Odit repellat vel, officiis ab reiciendis animi nemo ipsum dignissimos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi nemo odio alias beatae repellat reprehenderit non quam iste maxime. Odit repellat vel, officiis ab reiciendis animi nemo ipsum dignissimos.  Vitae quasi, laborum quaerat iure debitis velit, minima fugiat accusamus quo, eius architecto rem error ipsa voluptate explicabo ut, eveniet porro enim! consectetur adipisicing elit. Quos sequi nemo odio alias beatae repellat reprehenderit non quam iste maxime. Odit repellat vel, officiis ab reiciendis animi nemo ipsum dignissimos. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                   <img class="part2" src="img/hands.jpeg" alt="Forrest">
                 </div>
             </div>
-            <div class="nav" id="about"><h3>About</h3>
+            <div class="nav" id="about">
+              <h3>About</h3>
+              <p>
+                Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quasi, laborum quaerat iure debitis velit, minima fugiat accusamus quo, eius architecto rem error ipsa voluptate explicabo ut, eveniet porro enim! consectetur adipisicing elit. Quos sequi nemo odio alias beatae repellat reprehenderit non quam iste maxime.
+              </p>
               <img  class="about" src="img/zombieabout.jpg" alt="zombiepicture">
                 <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quasi, laborum quaerat iure debitis velit, minima fugiat accusamus quo, eius architecto rem error ipsa voluptate explicabo ut, eveniet porro enim! consectetur adipisicing elit. Quos sequi nemo odio alias beatae repellat reprehenderit non quam iste maxime. Odit repellat vel, officiis ab reiciendis animi nemo ipsum dignissimos.</p>
             </div>
@@ -71,16 +76,21 @@
             </div>
             <div class="nav" id="alphas"><h3>Alphas</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi nemo odio alias beatae repellat reprehenderit non quam iste maxime. Odit repellat vel, officiis ab reiciendis animi nemo ipsum dignissimos.</p>
-                <div class="flexbox-container2">
-                    <img src="img/Alphas%201.png" alt="Alphas">
-                    <img src="img/Alphas%202.png" alt="Alphas"> 
+                <div class="row mx-auto">
+                  <div class="col">
+                    <img class="img-alphas" src="img/Alphas%201.png" alt="Alphas">
+                  </div>
+                  <div class="col">
+                    <img class="img-alphas" src="img/Alphas%202.png" alt="Alphas"> 
+                  </div>
                 </div>
             </div>
             <div class="nav" id="zombies"><h3>Zombies</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi nemo odio alias beatae repellat reprehenderit non quam iste maxime. Odit repellat vel, officiis ab reiciendis animi nemo ipsum dignissimos. Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quasi, laborum quaerat iure debitis velit, minima fugiat accusamus quo, eius architecto rem error ipsa voluptate explicabo ut, eveniet porro enim! consectetur adipisicing elit. Quos sequi nemo odio alias beatae repellat reprehenderit non quam iste maxime. Odit repellat vel, officiis ab reiciendis animi nemo ipsum dignissimos.</p>
             </div>
-            <div class="nav" id="slider"><h3>Pictures</h3>
-                <p><span style="font-size: 20px;">There are some pictures scenes from 7 DAYS TO DIE! Look and share with your friends.</span></p>
+            <div class="nav" id="slider">
+              <h3>Pictures</h3>
+                <p>There are some pictures scenes from 7 DAYS TO DIE! Look and share with your friends.</p>
                 <div id="picture">
                     <div class="photo"><img src="Slider/1.jpg" alt="Scene"></div>
                     <div class="photo"><img src="Slider/2.jpg" alt="Scene"></div>
@@ -92,17 +102,7 @@
             </div>
             <div class="nav" id="contact"><h3>Contact us:</h3>
                 <div class="form">
-                  <form action="" method="post">
-                    <fieldset>
-                    <legend><span style="font-weight: bold">Do you have any question?</span></legend>
-                      <label>Forename:<input type="text" placeholder="Your forename.." onfocus="this.placeholder=''" onblur="this.placeholder='Your forename..'"></label>
-                      <label>Surname: <input type="text" placeholder="Your surname.." onfocus="this.placeholder=''" onblur="this.placeholder='Your surname..'"></label>
-                      <label>Email: <input type="email" name="" placeholder="Your email.." onfocus="this.placeholder=''" onblur="this.placeholder='Your Email..'"></label>
-                      <label>
-                      <textarea name="" placeholder="Your question.." style="height:100px"></textarea></label>
-                      <input type="submit" value="Send Request">
-                    </fieldset>  
-                  </form>
+                  
                 </div>
                 <div class="socials">
                       <div class="socialdivs">
@@ -118,7 +118,20 @@
           </article>
       </main>
       <footer>
-        <h6>Copyright &copy; 2019 JOANNA TUCKA all rights reserved.</h6>
+        <p class="footer-link">
+          <a class="git-link"
+          href="https://github.com/askat58/7DaysToDie"
+          target="_blank"
+        >
+          Open-source code available on GitHub.
+          </a>Coded by 
+          
+          <a class="git-link"
+              href="https://www.linkedin.com/in/joanna-el%C5%BCbieta-t-288561181/"
+              target="_blank"
+            >
+              Joanna Tucka.
+            </a>Copyright  2019&copy; All rights reserved.</p>
       </footer>
     </div>
 </body>
