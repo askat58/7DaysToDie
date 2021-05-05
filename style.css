@@ -65,7 +65,7 @@ p {
 }
 
 nav ul {
-  width: 1200px;
+  
   margin-left: auto;
   margin-right: auto;
   font-size: 22px;
@@ -77,21 +77,21 @@ nav ul {
 
 ul li {
   display: inline-block;
-  background-color: #5e3c3c;
+  background-color: #b02424;
   text-shadow: 1px 1px 5px #ff0000;
   border: 2px solid #490e0e;
-  border-radius: 10px;
+  border-radius: 25px;
   padding: 20px;
   margin: 5px;
 }
 
 .menu:link {
-  color: darkgray;
+  color: #c1baba;
   text-decoration: none;
 }
 
 .menu:hover {
-  color: #000;
+  color: #e8d8d8;
 }
 
 .menu:visited {
@@ -99,7 +99,7 @@ ul li {
 }
 
 .menu:active {
-  color: crimson;
+  color: #a12517;
 }
 
 h3 {
@@ -108,19 +108,19 @@ h3 {
   font-weight: bold;
   margin: 15px auto;
   text-shadow: 2px 2px 5px #cc0000;
-  padding: 20px 0;
+}
+
+img {
+  margin: 0 auto;
 }
 
 #picture {
-  width: 1000px;
   padding: 5px;
   margin-bottom: 30px;
 }
 
 .about {
-  width: 800px;
-  height: 600px;
-  padding: 30px;
+  width: 70%;
 }
 
 .img-alphas {
@@ -131,8 +131,6 @@ h3 {
 
 .photo {
   display: inline-block;
-  width: 300px;
-  height: 169px;
   overflow: hidden;
 }
 
