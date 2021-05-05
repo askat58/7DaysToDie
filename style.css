@@ -105,7 +105,8 @@ li {
 }
 
 .part2 {
-  max-width: 70%;
+  max-width: 80%;
+  padding-bottom: 20px;
 }
 
 #picture {
@@ -149,7 +150,7 @@ li {
   border-bottom: 1px solid #d71212;
   text-align: center;
   cursor: pointer;
-  color: #d71212;
+  color: #720505;
 }
 
 .fb {
@@ -157,6 +158,7 @@ li {
   width: 25%;
 }
 .fb:hover {
+  color: #c21717;
   background-color: #730d0d;
   text-shadow: 3px 3px 20px #010101;
 }
@@ -167,6 +169,7 @@ li {
 }
 
 .yt:hover {
+  color: #c21717;
   background-color: #730d0d;
   text-shadow: 3px 3px 20px #010101;
 }
@@ -177,7 +180,8 @@ li {
 }
 
 .tw:hover {
-  background-color: #c21717;
+  color: #c21717;
+  background-color: #730d0d;
   text-shadow: 3px 3px 30px #010101;
 }
 
@@ -187,6 +191,7 @@ li {
 }
 
 .gplus:hover {
+  color: #c21717;
   background-color: #730d0d;
   text-shadow: 3px 3px 20px #ff0000;
 }
