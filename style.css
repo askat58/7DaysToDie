@@ -153,47 +153,21 @@ li {
   color: #720505;
 }
 
-.fb {
-  float: left;
-  width: 25%;
-}
-.fb:hover {
-  color: #c21717;
-  background-color: #730d0d;
-  text-shadow: 3px 3px 20px #010101;
-}
-
-.yt {
-  float: left;
-  width: 25%;
-}
-
-.yt:hover {
-  color: #c21717;
-  background-color: #730d0d;
-  text-shadow: 3px 3px 20px #010101;
-}
-
-.tw {
-  float: left;
-  width: 25%;
-}
-
-.tw:hover {
-  color: #c21717;
-  background-color: #730d0d;
-  text-shadow: 3px 3px 30px #010101;
-}
-
+.fb,
+.yt,
+.tw,
 .gplus {
   float: left;
   width: 25%;
 }
 
+.fb:hover,
+.yt:hover,
+.tw:hover,
 .gplus:hover {
   color: #c21717;
   background-color: #730d0d;
-  text-shadow: 3px 3px 20px #ff0000;
+  text-shadow: 3px 3px 20px #010101;
 }
 
 .contact {
