@@ -54,7 +54,8 @@ h2 {
 
 .main-content {
   background-color: #fae8e0;
-  padding: 15px 0 0 0;
+  padding: 25px 50px;
+  text-align: justify;
 }
 
 nav ul {
@@ -69,7 +70,6 @@ nav ul {
 li {
   display: inline-block;
   background-color: #b02424;
-  text-shadow: 1px 1px 5px #ff0000;
   border: 2px solid #490e0e;
   border-radius: 6px;
   padding: 5px 10px;
@@ -104,13 +104,18 @@ li {
   text-align: center;
 }
 
+.part2 {
+  max-width: 70%;
+}
+
 #picture {
   padding: 5px;
   margin-bottom: 20px;
 }
 
 .about {
-  width: 70%;
+  width: 80%;
+  padding-bottom: 20px;
 }
 
 .img-alphas {
