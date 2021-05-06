@@ -105,8 +105,7 @@ li {
 }
 
 .part2 {
-  max-width: 80%;
-  padding-bottom: 20px;
+  max-width: 100%;
 }
 
 #picture {
@@ -115,8 +114,21 @@ li {
 }
 
 .about {
-  width: 80%;
-  padding-bottom: 20px;
+  max-width: 100%;
+}
+
+figure {
+  padding: 20px 0;
+  margin: auto;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  margin: 0 auto;
+  
 }
 
 .img-alphas {
