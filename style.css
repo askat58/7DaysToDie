@@ -53,7 +53,8 @@ h2 {
 }
 
 .main-content {
-  background-color: #fae8e0;
+  color: #d5d5d5;
+  background-color: #180c07;
   padding: 25px 50px;
   text-align: justify;
 }
@@ -94,13 +95,13 @@ li {
 }
 
 .subheading {
-  background-color: #edbebe5d;
+  background-color: #730d0d5f;
   border-top: 1px solid #d71212;
   border-bottom: 1px solid #d71212;
-  color: #c21717;
+  color: #940707;
   font-size: 38px;
   font-weight: bold;
-  padding: 5px 0;
+  margin: 20px 0;
   text-align: center;
 }
 
@@ -128,7 +129,6 @@ figcaption {
   font-style: italic;
   text-align: center;
   margin: 0 auto;
-  
 }
 
 .img-alphas {
