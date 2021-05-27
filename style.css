@@ -115,7 +115,7 @@ li {
 }
 
 .about {
-  max-width: 100%;
+  max-width: 75%;
 }
 
 figure {
@@ -129,6 +129,10 @@ figcaption {
   font-style: italic;
   text-align: center;
   margin: 0 auto;
+}
+
+.real-zombi {
+  max-width: 75%;
 }
 
 .img-alphas {
